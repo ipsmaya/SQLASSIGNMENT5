@@ -1,0 +1,61 @@
+1.
+select 
+SUM(salary)
+from deptno
+
+2.INNER JOIN is the the intersection of two tables,
+e.g.,
+
+select
+empno,
+birthdate,
+emplyid
+from
+table1  t1 inner join
+ON table t2 t1.emplyid = t2.emplyid
+
+OUTER JOIN is the union of two table
+e.g,
+
+select
+empno,
+birthdate,
+emplyid
+from
+table1  t1 outer join
+ON table t2 t1.emplyid = t2.emplyid
+
+3.In SQL, a view is a virtual table based on 
+the result-set of an SQL statement. 
+A view contains rows and columns, just like a real table.
+A view is created with the CREATE VIEW statement
+
+4.
+SELECT 
+SAL* 
+FROM EMP 
+WHERE SAL=MAX(SAL);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
